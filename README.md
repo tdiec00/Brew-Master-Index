@@ -5,29 +5,34 @@
 1) Read **ALL** of the directions before doing step 2. We'll know...
 
 ### STEP 2: Make a New Repo
-:heavy_exclamation_mark: You will be using your personal GitHub, **not** GitHub Enterprise!
-1. [make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT CLONE THIS REPO.
-2. Make sure it's set to "Public" and **do not** initialize with a README.md file.
-3. This will take you to a new page that you will use in Step 3.
+1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT CLONE THIS REPO. 
+2. Make sure it's set to "Public" and initialize it with a README.md file.
+3. Send a link to your repository to Rachel
+4. Clone down your repository to your machine
+
+Note: Your repository should **not** be called `project-1`! Name your application and then name your repository. 
 
 ### STEP 3: Pitch Your Project
 Before you start coding, you will be meeting with an instructor for ~10 minutes to get your app idea approved. Prepare the following materials **before** this meeting and put them in your README.md:
-- A working title for your app
-- What API you want to use and what information you want to get from it. 
+- A working title for your app and project description
+- Goals for each day of the project
+- A priority matrix
+- What API you want to use and what information you want to get from it and a snippet of JSON from it. 
 - Write out what features you will need to build in order to meet MVP 
-- Stretch goals for additional / advanced features for when you complete your MVP 
-- Wireframes showing your app's layout on desktop, tablet, and mobile. These can be as lo-fi or as hi-fi as you want. You don't have to put these in the README, but please upload them to your repository.
+- PMVP for additional / advanced features for when you complete your MVP 
+- Your timefrrames filled out in no more than 4 hour chunks
+- Wireframes showing your app's layout on desktop, tablet, and mobile. These can be as lo-fi or as hi-fi as you want.
 
 ### STEP 4: &#x1F534; Build Your Project MVP —  Mandatory To Pass
 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript
-  2. Hosted on **[Surge](https://surge.sh/)**
+  2. Hosted on Github Pages
   3. Commits to github every day<br>
-  4. A `README.md` file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
+  4. A `README.md` file that contains your project worksheet, a link to your live site, installation instructions etc.
   1. Use AJAX to make a request to an external data source like OMDBapi and insert some of the data retrieved into the DOM
-  1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least 3 media  queries
+  1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least 2 media  queries
 
 #### 📋 List of APIs
 
@@ -50,7 +55,7 @@ Lastly, the following sites congregates a bunch of APIs together, so you can tak
   1. https://github.com/toddmotto/public-apis
   1. https://rapidapi.com/
 
-### STEP 5 - &#x1F535; Reach Stretch Goals (Not Mandatory)
+### STEP 5 - &#x1F535; PMVP (Not Mandatory)
 - Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
 - Add a second API
 - Add creative use of event listeners and UI interaction
@@ -68,5 +73,5 @@ All projects will be presented to the class.  Your presentation should:
 
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before moving to step 2? If so, on part 2 of step 3, write `git commit -m "imma happy panda"` instead of `git commit -m "first commit"`. Your awesomeness will be rewarded...
+Did you read all of the directions before moving to step 2? If so, on part 2 of step 3, write `git commit -m "relaxin in the oasis"` instead of `git commit -m "first commit"`. Your awesomeness will be rewarded...
 
