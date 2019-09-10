@@ -28,7 +28,7 @@ Before you start coding, you will be meeting with an instructor for ~10 minutes 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript
-  1. Your application mus include a form
+  1. Your application must include a form
   1. Hosted on Github Pages
   1. Commits to github every day<br>
   1. A `README.md` file that contains your project worksheet, a link to your live site, installation instructions etc.
