@@ -28,9 +28,10 @@ Before you start coding, you will be meeting with an instructor for ~10 minutes 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript
-  2. Hosted on Github Pages
-  3. Commits to github every day<br>
-  4. A `README.md` file that contains your project worksheet, a link to your live site, installation instructions etc.
+  1. Your application mus include a form
+  1. Hosted on Github Pages
+  1. Commits to github every day<br>
+  1. A `README.md` file that contains your project worksheet, a link to your live site, installation instructions etc.
   1. Use AJAX to make a request to an external data source like OMDBapi and insert some of the data retrieved into the DOM
   1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least 2 media  queries
 
