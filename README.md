@@ -5,7 +5,7 @@
 1) Read **ALL** of the directions before doing step 2. We'll know...
 
 ### STEP 2: Make a New Repo
-1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT CLONE THIS REPO. 
+1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
 2. Make sure it's set to "Public" and initialize it with a README.md file.
 3. Send a link to your repository to Rachel
 4. Clone down your repository to your machine
