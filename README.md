@@ -45,7 +45,6 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
   1. Giphy: https://developers.giphy.com/
   1. Pokemon: http://pokeapi.co/
   1. Card Deck: https://deckofcardsapi.com/
-  1. Google Books: https://developers.google.com/books/
   1. City of Chicago: https://data.cityofchicago.org/
   1. Beer: https://www.brewerydb.com/developers
   1. Chuck Norris: http://www.icndb.com/
