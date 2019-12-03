@@ -7,10 +7,10 @@
 ### STEP 2: Make a New Repo
 1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
 2. Make sure it's set to "Public" and initialize it with a README.md file.
-3. Send a link to your repository to Rachel
-4. Clone down your repository to your machine
+3. Send a link to your repository to an IA.
+4. Clone down your repository to your machine.
 
-Note: Your repository should **not** be called `project-1`! Name your application and then name your repository. 
+Note: Your repository should **not** be called `project-1`! Name your application and then name your repository after your application. 
 
 ### STEP 3: Pitch Your Project
 Before you start coding, you will be meeting with an instructor for ~10 minutes to get your app idea approved. Prepare the following materials **before** this meeting and put them in your README.md:
