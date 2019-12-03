@@ -16,7 +16,7 @@ Note: Your repository should **not** be called `project-1`! Name your applicatio
 Before you start coding, you will be meeting with an instructor for ~10 minutes to get your app idea approved. Prepare the following materials **before** this meeting and put them in your README.md:
 - A working title for your app and project description
 - Goals for each day of the project
-- A priority matrix
+- A priority matrix (x and y axis).
 - What API you want to use and what information you want to get from it and a snippet of JSON from it. 
 - Write out what features you will need to build in order to meet MVP 
 - PMVP for additional / advanced features for when you complete your MVP 
