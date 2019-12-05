@@ -27,7 +27,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
+Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  
 
 
 ## API Data Sample
