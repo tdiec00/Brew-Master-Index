@@ -55,7 +55,7 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
   1. Chuck Norris: http://www.icndb.com/
   1. Rick and Morty: https://rickandmortyapi.com/documentation/#rest
   
-Lastly, the following sites congregate a bunch of APIs together, so you can take a look through their libraries and try to find an API that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
+Lastly, the following site is a collection of a bunch of APIs, so you can take a look through their libraries and try to find an API that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
 
   1. https://github.com/toddmotto/public-apis
 
