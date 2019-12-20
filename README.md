@@ -2,7 +2,7 @@
 # Project #1: Your first application
 
 ### STEP 1: Read the Directions
-1) Read **ALL** of the directions before doing step 2. We will know...
+1) Read **ALL** of the directions before you start. We will know...
 
 ### STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
@@ -81,4 +81,4 @@ Your presentation should **NOT**:
 
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before finishing step 3? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
+Did you read all of the directions? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
