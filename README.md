@@ -17,7 +17,7 @@ Before you start any actual coding, you must meet with your Squad Leader for ~10
 - **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Designing, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priortiy.
 - **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-Interested in styling your README.md to make it look nice? Check out this [Mardown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
+Interested in styling your README.md to make it look nice? Check out this [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
 ### STEP 3: Make a New Repo
 1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
