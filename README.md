@@ -7,7 +7,7 @@
 ### STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
 - **App Title**: The name of your app.
-- **App description**: What your app will be designed to do.
+- **App Description**: What your app will be designed to do.
 - **API**: The API you are using and the information you plan to get from it.
 - **API Snippet**: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
 - **Wireframes**:  A planned layout and design for your app. Include layouts for any planned views in both desktop and mobile form (be sure to consider if you will need to account for landscape and portrait orientations).
