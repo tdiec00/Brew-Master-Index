@@ -4,17 +4,8 @@
 ### STEP 1: Read the Directions
 1) Read **ALL** of the directions before doing step 2. We will know...
 
-### STEP 2: Make a New Repo
-1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
-2. This new repo should be under your Enterprise github, not you personal account.
-2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
-3. Send a link for your repository to your Squad Leader.
-4. Clone this new repository down to your machine.
-
-Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
-
-### STEP 3: Pitch Your Project
-Before you start coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
+### STEP 2: Pitch Your Project
+Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
 - **App Title**: The name of your app.
 - **App description**: What your app will be designed to do.
 - **API**: The API you are using and the information you plan to get from it.
@@ -25,6 +16,17 @@ Before you start coding, you must meet with your Squad Leader for ~10 minutes to
 - **Goals**: What you plan to accomplish for each day of the project week.
 - **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Designing, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priortiy.
 - **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+
+### STEP 3: Make a New Repo
+1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
+2. This new repo should be under your Enterprise github, not you personal account.
+2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
+3. Send a link for your repository to your Squad Leader.
+4. Clone this new repository down to your machine.
+5. CD into the project directory and touch ```index.html```, ```style.css``` and ```script.js``` files.
+6. Test a commit to make sure everything is connected with ```git commit -m "first commit"```.
+
+Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
 
 ### STEP 4: &#x1F534; Build Your Project MVP — Mandatory To Pass
 
@@ -79,4 +81,4 @@ Your presentation should **NOT**:
 
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before moving on to step 2? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
+Did you read all of the directions before finishing step 3? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
