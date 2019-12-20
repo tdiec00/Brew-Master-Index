@@ -2,42 +2,45 @@
 # Project #1: Your first application
 
 ### STEP 1: Read the Directions
-1) Read **ALL** of the directions before doing step 2. We'll know...
+1) Read **ALL** of the directions before doing step 2. We will know...
 
 ### STEP 2: Make a New Repo
 1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
-2. Make sure it's set to "Public" and initialize it with a README.md file.
-3. Send a link to your repository to an IA.
-4. Clone down your repository to your machine.
+2. This new repo should be under your Enterprise github, not you personal account.
+2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
+3. Send a link to your repository to an Squad Leader.
+4. Clone this new repository down to your machine.
 
-Note: Your repository should **not** be called `project-1`! Name your application and then name your repository after your application. 
+Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
 
 ### STEP 3: Pitch Your Project
-Before you start coding, you will be meeting with an instructor for ~10 minutes to get your app idea approved. Prepare the following materials **before** this meeting and put them in your README.md:
-- A working title for your app and project description
-- Goals for each day of the project
-- A priority matrix (x and y axis).
-- What API you want to use and what information you want to get from it. Include a snippet of JSON. 
-- Write out what features you will need to build in order to meet MVP 
-- PMVP for additional / advanced features for when you complete your MVP 
-- Your timeframes filled out in no more than 4 hour chunks
-- Wireframes showing your app's layout on desktop, tablet, and mobile. These can be as lo-fi or as hi-fi as you want.
+Before you start coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
+- **App Title**: The name of your app.
+- **App description**: What your app will be designed to do.
+- **API**: The API you are using and the information you plan to get from it.
+- **API Snippet**: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
+- **Wireframes**:  A planned layout and design for your app. Include layouts for any planned views in both desktop and mobile form (be sure to consider if you will need to account for landscape and portrait orientations).
+- **MVP**: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubrik your project is graded against.
+- **Post-MVP**: A list of additional/advanced features you would like to include in your app after you have met MVP.
+- **Goals**: What you plan to accomplish for each day of the project week.
+- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Designing, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priortiy.
+- **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-### STEP 4: &#x1F534; Build Your Project MVP —  Mandatory To Pass
+### STEP 4: &#x1F534; Build Your Project MVP — Mandatory To Pass
 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript.
-  1. Your application must include a form.
-  1. Hosted on Github Pages.
-  1. Commits to github every day<br>
-  1. A `README.md` file that contains your project worksheet, a link to your live site, installation instructions etc.
-  1. Use AJAX to make a request to an external data source like OMDBapi and insert some of the data retrieved into the DOM
-  1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least a media  queries
+  1. Uses Axios to make a request to an external data source and inserts some of the retrieved data on to the DOM.
+  1. Fulfills the build requirements you have specified in your MVP.
+  1. Implements responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least 2 media  queries.
+  1. Deployed to a site hosting service like ```surge.sh```.
+  1. Commits to github every day.
+  1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any neccessary installation instructions such as ```npm i```.
 
 #### 📋 List of APIs
 
-Below is a non-exhaustive list of some free APIs you can use. There are _many_ APIs out there, however, so if you find one not on this list that you'd like to use, feel free! Please note that some may require signing up for an API key.
+Below is a non-exhaustive list of some free APIs you can use. There are _many_ APIs out there, however, so if you find one not on this list that you'd like to use, feel free, but do make sure you are able to successfully make a GET request before commiting to using it.
 
   1. Star Wars: https://swapi.co/
   1. Weather: https://openweathermap.org/api
@@ -50,14 +53,15 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
   1. Chuck Norris: http://www.icndb.com/
   1. Rick and Morty: https://rickandmortyapi.com/documentation/#rest
   
-Lastly, the following sites congregates a bunch of APIs together, so you can take a look through their libraries and try to find an API that interests you! Note, however, that not all APIs are free and many listed may require payment. We **highly suggest** to use a free API for your first project dealing with one. 
+Lastly, the following sites congregate a bunch of APIs together, so you can take a look through their libraries and try to find an API that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
 
   1. https://github.com/toddmotto/public-apis
 
-### STEP 5 - &#x1F535; PMVP (Not Mandatory)
+### STEP 5 - &#x1F535; Ideas for Post-MVP (Not Mandatory)
 - Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
 - Add a second API.
-- Add creative use of event listeners and UI interaction, add animations.
+- Add creative use of event listeners and UI interaction.
+- Add animations.
 - Get input from a UX student on how to make your app have intuitive UI and design.
 
 ### STEP 6 - Technical Demonstration
@@ -70,7 +74,9 @@ All projects will be presented to the class.  Your presentation should:
 * Explain the technical challenges
 * Explain which improvements you might make
 
+Your presentation should **NOT**:
+* Focus on what you didn't accomplish.
+
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before moving to step 2? If so, on part 2 of step 3, write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"`. Your awesomeness will be rewarded...
-
+Did you read all of the directions before moving on to step 2? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
