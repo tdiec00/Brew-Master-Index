@@ -8,7 +8,7 @@
 1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
 2. This new repo should be under your Enterprise github, not you personal account.
 2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
-3. Send a link to your repository to an Squad Leader.
+3. Send a link for your repository to your Squad Leader.
 4. Clone this new repository down to your machine.
 
 Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
