@@ -38,7 +38,7 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
   1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
   1. Fulfill the build requirements you have specified in your MVP.
   1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc), using at least 2 media  queries.
-  1. Deployed to a site hosting service like ```surge.sh```.
+  1. Deployed to a site hosting service like [surge.sh](https://surge.sh/).
   1. Commits to github every day.
   1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any neccessary installation instructions such as ```npm i```.
 
