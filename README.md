@@ -7,14 +7,14 @@
 ### STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials _before_ your meeting and put them in your README.md:
 - **App Title**: The name of your app.
-- **App Description**: What your app will be designed to do.
+- **App Description**: What your app will do.
 - **API**: The API you are using and the information you plan to get from it.
 - **API Snippet**: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
-- **Wireframes**:  A planned layout and design for your app. Include layouts for any planned views in both desktop and mobile form (be sure to consider if you will need to account for landscape and portrait orientations).
+- **Wireframes**:  The proposed layout and design of your app. Create mockups for multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations.
 - **MVP**: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubrik your project is graded against.
 - **Post-MVP**: A list of additional/advanced features you would like to include in your app after you have met MVP.
 - **Goals**: What you plan to accomplish for each day of the project week.
-- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Designing, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priortiy.
+- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Designing, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority.
 - **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
 Interested in styling your README.md to make it look nice? Check out this [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
@@ -26,7 +26,7 @@ Interested in styling your README.md to make it look nice? Check out this [Markd
 3. Send a link for your repository to your Squad Leader.
 4. Clone this new repository down to your machine.
 5. CD into the project directory and touch ```index.html```, ```style.css``` and ```script.js``` files.
-6. Test a commit to make sure everything is connected with ```git commit -m "first commit"```.
+6. Test a commit and push it to make sure everything is connected with ```git commit -m "first commit"```.
 
 Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
 
@@ -35,16 +35,16 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript.
-  1. Uses Axios to make a request to an external data source and inserts some of the retrieved data on to the DOM.
-  1. Fulfills the build requirements you have specified in your MVP.
-  1. Implements responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc). Use at least 2 media  queries.
+  1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+  1. Fulfill the build requirements you have specified in your MVP.
+  1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc), using at least 2 media  queries.
   1. Deployed to a site hosting service like ```surge.sh```.
   1. Commits to github every day.
   1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any neccessary installation instructions such as ```npm i```.
 
 #### 📋 List of APIs
 
-Below is a non-exhaustive list of some free APIs you can use. There are _many_ APIs out there, however, so if you find one not on this list that you'd like to use, feel free, but do make sure you are able to successfully make a GET request before commiting to using it.
+Below is a non-exhaustive list of some free APIs you can use. There are _many_ APIs out there, however, so if you find one not on this list, feel free to use it. No matter what API you decide on, make sure you are able to successfully make a GET request before you commit to using it.
 
   1. Star Wars: https://swapi.co/
   1. Weather: https://openweathermap.org/api
@@ -57,9 +57,7 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
   1. Chuck Norris: http://www.icndb.com/
   1. Rick and Morty: https://rickandmortyapi.com/documentation/#rest
   
-Lastly, the following site is a collection of a bunch of APIs, so you can take a look through their libraries and try to find an API that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
-
-  1. https://github.com/toddmotto/public-apis
+[This site](https://github.com/toddmotto/public-apis) lists a collection APIs as well. Take a look through their libraries and try to find one that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
 
 ### STEP 5 - &#x1F535; Ideas for Post-MVP (Not Mandatory)
 - Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
