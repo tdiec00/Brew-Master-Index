@@ -59,14 +59,14 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
   
 [This site](https://github.com/toddmotto/public-apis) lists a collection APIs as well. Take a look through their libraries and try to find one that interests you. Please note, however, that many APIs will require an authentication key, and some APIs require payment. We **highly suggest** using a free API for your first project dealing with one.
 
-### STEP 5 - &#x1F535; Ideas for Post-MVP (Not Mandatory)
+### STEP 5: &#x1F535; Ideas for Post-MVP - Not Mandatory
 - Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
 - Add a second API.
 - Add creative use of event listeners and UI interaction.
 - Add animations.
 - Get input from a UX student on how to make your app have intuitive UI and design.
 
-### STEP 6 - Technical Demonstration
+### STEP 6: Technical Demonstration
 
 All projects will be presented to the class.  Your presentation should:
 
