@@ -83,8 +83,10 @@ You will be sharing your project and your code.  Be prepared to answer questions
 
 Did you read all of the directions before starting? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
 
-### Step 7: Signing Up for Help
+### Step 7: Help and Support
 
-1. Fill out Github issue ticket to completion. 
-2. Sign up for a time and give 10 minutes heads to instructor. 
-3. Include `issue` link and name in P1 Schedular: https://docs.google.com/spreadsheets/d/1DtDnf12tnO8gatsZ_Ftq1-zIEhiHv1ihxXFekPHYFpc/edit#gid=1031520631
+1. Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
+
+2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and `issue` ticket. Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. 
+
+3. Sign up with your `issue` link and name here in P1 Schedular: https://docs.google.com/spreadsheets/d/1ttzlQV3-pA9tscUJiInAPWQ1QiWPbaLHhuv4YlgR7j4/edit?ts=5e84ac19#gid=1172250325
