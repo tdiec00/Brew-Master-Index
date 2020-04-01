@@ -81,7 +81,7 @@ Your presentation should **NOT**:
 
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before starting? If so write `git commit -m "chill'n in the blizzard"` instead of `git commit -m "first commit"` for your first commit.
+Did you read all of the directions before starting? If so write `git commit -m "chill'n in outerspace"` instead of `git commit -m "first commit"` for your first commit.
 
 ### Step 7: Help and Support
 
@@ -89,4 +89,33 @@ Did you read all of the directions before starting? If so write `git commit -m "
 
 2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and `issue` ticket. Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. 
 
-3. Sign up with your `issue` link and name here in P1 Schedular: https://docs.google.com/spreadsheets/d/1ttzlQV3-pA9tscUJiInAPWQ1QiWPbaLHhuv4YlgR7j4/edit?ts=5e84ac19#gid=1172250325
+3. Sign up with your name and time here in the P1 Schedular: https://docs.google.com/spreadsheets/d/1ttzlQV3-pA9tscUJiInAPWQ1QiWPbaLHhuv4YlgR7j4/edit?ts=5e84ac19#gid=1172250325
+
+### Step 8: Grading
+
+#### Hard Requirements
+
+The following requirements **_must_** be met in order for the project to be
+considered complete:
+
+- The project is deployed to GitHub Pages or a custom domain
+- The application renders in the browser and runs without errors
+- The repo has a README that adequately documents the project
+
+We do not give letter grades, it is either pass/fail. The true benchmark is how much you grow and learn each unit. 
+
+You will recieve feedback in a secret gist. The gist will be Slacked out independant of your P1 repo to keep feedback confidential. 
+
+An example of the gist can be found here: [Secret Gist](https://gist.git.generalassemb.ly/SteveVW/6b49d9b08d1edcd203609d843eb8b97f)
+
+If you would like more feedback that the gist, instructors will be available to meet 1 on 1. Please feel free to reach out and schedule a time with your squad lead. 
+
+### Incomplete Projects
+
+Incomplete projects will be giving an extension. An instructor will follow up with you to discuss details of the resubmission.  **Note that you are allowed one extension on only one of the four projects.**
+
+<br>
+
+## PLAGIARISM
+
+Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://gist.git.generalassemb.ly/SteveVW/7b780310c82d10df98a4e620abbfbfec).
