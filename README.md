@@ -20,7 +20,7 @@ Before you start any actual coding, you must meet with your Squad Leader for ~10
 Interested in styling your README.md to make it look nice? Don't know how to include photos or create links? Check out this [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
 ### STEP 3: Make a New Repo
-1. [Make a new github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
+1. [Make a new enterprise github repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
 2. This new repo should be under your Enterprise github, not you personal account.
 2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
 3. Send a link for your repository to your Squad Leader.
