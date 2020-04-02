@@ -1,9 +1,10 @@
-| **Steve (Arctic Monkeys)** | **Michael (Coldplay)**  | **Erinn (Edgar Winter Group)**   |
+| **Steve** | **Corey**  | **Tara/Jordan**   |
 |:-------:|:---------:|:---------:|
-| Brandon | Alex      | Donald    |
-| Disney  | Anthony   | Michael   |
-| Jeffrey | Effie     | Rachel    |
-| Jeremy  | Errol     | Ro        |
-| Jose    | Jennifer  | Samantha  |
-| Stephen | Mardikian | Tara      |
-| Tammi   |           | Trevor    |
+| Zamel | JP | Scott    |
+| Bianca  | Abraham | Claire |
+| Luke | Tom | Rachel |
+| Katiana | Andrew | Josh |
+| Jenna | Daehyun  | Janis |
+| Andres | Divine | Claudy |
+| Stefon | Ashley | Megan |
+| Juan | Felipe | Saadat |
