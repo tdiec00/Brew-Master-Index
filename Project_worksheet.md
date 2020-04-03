@@ -42,9 +42,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |April 2rd| Project Prompt | Incomplete
 |April 3rd - 5th| Wireframes / Priority Matrix / Functional Components | Incomplete
 |April 6th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 6th| Pseudocode / actual code | Incomplete
-|April 7th| Initial Clickable Model  | Incomplete
-|April 8th| MVP | Incomplete
+|April 7th| Pseudocode / actual code | Incomplete
+|April 8th| Initial Clickable Model  | Incomplete
+|April 9th| MVP | Incomplete
 |April 10th| Present | Incomplete
 
 ## Priority Matrix
