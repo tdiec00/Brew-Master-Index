@@ -63,11 +63,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
-## API Data Sample
-
-Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
-
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
