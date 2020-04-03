@@ -2,7 +2,7 @@
 |:-------:|:---------:|:---------:|
 | Zamel | JP | Scott    |
 | Bianca  | Abraham | Claire |
-| Luke | Tom | Rachel |
+| Luke | Tom | Alex |
 | Katiana | Andrew | Josh |
 | Jenna | Daehyun  | Janis |
 | Andres | Divine | Claudy |
