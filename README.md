@@ -35,6 +35,7 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
 #### Your application must meet these requirements:
 
   1. Built with HTML, CSS, and JavaScript.
+  1. Styled using `Flexbox` or `Grid`.
   1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
   1. Fulfill the build requirements you have specified in your MVP.
   1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc), using at least one media query.
@@ -46,7 +47,6 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
 
 Below is a non-exhaustive list of some free APIs you can use. There are _many_ APIs out there, however, so if you find one not on this list, feel free to use it. No matter what API you decide on, make sure you can successfully make a GET request before you commit to using it.
 
-  1. Star Wars: https://swapi.co/
   1. Weather: https://openweathermap.org/api
   1. News: https://newsapi.org/
   1. Giphy: https://developers.giphy.com/
