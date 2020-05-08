@@ -20,9 +20,9 @@ Before you start any actual coding, you must meet with your Squad Leader for ~10
 Are you interested in styling your README.md to make it look nice? Don't know how to include photos or create links? Check out this [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
 ### STEP 3: Make a New Repo
-1. [Make a new enterprise GitHub repo for your project](https://help.github.com/articles/create-a-repo/). DO NOT FORK THIS REPO. 
-2. This new repo should be under your Enterprise Github, not your personal account.
-2. Make sure your new repo is set to "Public" and initialize it with a README.md file.
+1. [Make a new enterprise GitHub repo for your project](https://help.github.com/articles/create-a-repo/). **DO NOT FORK THIS REPO.** 
+2. This new repo should be under your GA Enterprise Github, NOT your personal account.
+2. Make sure your new repo is set to "Public" and initialize it with a README.md file. This will be your project worksheet.
 3. Send a link for your repository to your Squad Leader.
 4. Clone this new repository down to your machine.
 5. CD into the project directory and touch ```index.html```, ```style.css``` and ```script.js``` files.
@@ -38,10 +38,9 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
   1. Styled using `Flexbox` or `Grid`.
   1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
   1. Fulfill the build requirements you have specified in your MVP.
-  1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc), using at least one media query.
-  1. Deployed to a site hosting service like [surge.sh](https://surge.sh/).
-  1. Commits to GitHub every day.
-  1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
+  2. Deployed to a site hosting service like [Github Pages](https://pages.github.com/).
+  3. Make commits to GitHub every day.
+  4. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
 
 #### 📋 List of APIs
 
@@ -63,6 +62,7 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
 - Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
 - Add a second API.
 - Add creative use of event listeners and UI interaction.
+- Add media queries for responsive design.
 - Add animations.
 - Get input from a UX student on how to make your app have intuitive UI and design.
 
@@ -108,7 +108,7 @@ You will receive feedback in a secret gist. The gist will be Slacked out indepen
 
 An example of the gist can be found here: [Secret Gist](https://gist.git.generalassemb.ly/SteveVW/6b49d9b08d1edcd203609d843eb8b97f)
 
-If you would like more feedback that the gist, instructors will be available to meet one on one. Please feel free to reach out and schedule a time with your squad leader. 
+If you would like more feedback than the gist, instructors will be available to meet one on one. Please feel free to reach out and schedule a time with your squad leader. 
 
 ### Incomplete Projects
 
