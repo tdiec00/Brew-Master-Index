@@ -1,11 +1,11 @@
-| **Steve** | **Corey**  | **Tara/Jordan**   |
+| **Steve** | **McNasty**  | **Jenn/Rual**   |
 |:-------:|:---------:|:---------:|
-| Zamel | JP | Scott    |
-| Bianca  | Abraham | Claire |
-| Luke | Tom | Alex |
-| Katiana | Andrew | Josh |
-| Jenna | Daehyun  | Janis |
-| Andres | Divine | Claudy |
-| Stefon | Ashley | Megan |
-| Juan | Felipe | Saadat |
-||Idia||
+| Jacky | Peter C. | Kate    |
+| Scott  | Charaf | Nikita |
+| Dan | Bryce | Azin |
+| Shayne | Kelly | Wannamaker |
+| Johnathan | Jack  | Christian |
+| Peter S. | Joshua | Shean |
+| Felicia | Colin | Estevan |
+| Zach | Olu | Gerand |
+
