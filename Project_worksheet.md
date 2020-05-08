@@ -42,7 +42,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |May 8| Project Prompt | Incomplete
-|May 9-10| Wireframes / Priority Matrix / Functional Components | Incomplete
+|May 9-10| Wireframes / Priority Matrix / Timeframes | Incomplete
 |May 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |May 12| Pseudocode / actual code | Incomplete
 |May 13| Initial Clickable Model  | Incomplete
@@ -57,7 +57,7 @@ Include a full list of features that have been prioritized based on the `Time an
 
 Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -67,7 +67,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
 function reverse(string) {
