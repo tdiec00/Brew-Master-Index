@@ -87,7 +87,7 @@ Did you read all of the directions before starting? If so write `git commit -m "
 
 1. Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
 
-2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and `issue` ticket. Instructors will not be holding open office hours during project week. This is to allow you to solve issues and errors you run in to on your own and with your classmates. 
+2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and a link to your `issue ticket`. Instructors will not be holding open office hours during project week. This is to allow you to solve issues and errors you run in to on your own and with your classmates. Fill in an [Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-neptune/class-info/blob/master/projects/issue-ticket-template.md) before requesting time with your squad leader.
 
 3. [Sign up with your name and time here in the P1 Scheduler](https://docs.google.com/spreadsheets/d/14Tj0RhP5s4O4gVU6G_o7drkjjpBxQMhwXjifGywItRE/edit?usp=sharing)
 
