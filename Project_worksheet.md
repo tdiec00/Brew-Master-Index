@@ -16,17 +16,19 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
-### MVP/PostMVP - 5min
+### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
+*These are examples only. Replace with your own MVP features.*
 
 - Find and use external api 
 - Render data on page 
 - Allow user to choose favorites 
 
-#### PostMVP 
+#### PostMVP  
+*These are examples only. Replace with your own Post-MVP features.*
 
 - Add second API
 - Use local storage to save user favorites
@@ -39,13 +41,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 2rd| Project Prompt | Incomplete
-|April 3rd - 5th| Wireframes / Priority Matrix / Functional Components | Incomplete
-|April 6th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 7th| Pseudocode / actual code | Incomplete
-|April 8th| Initial Clickable Model  | Incomplete
-|April 9th| MVP | Incomplete
-|April 10th| Present | Incomplete
+|May 8| Project Prompt | Incomplete
+|May 9-10| Wireframes / Priority Matrix / Functional Components | Incomplete
+|May 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|May 12| Pseudocode / actual code | Incomplete
+|May 13| Initial Clickable Model  | Incomplete
+|May 14| MVP | Incomplete
+|May 15| Present | Incomplete
 
 ## Priority Matrix
 
