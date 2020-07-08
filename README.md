@@ -22,11 +22,11 @@ Are you interested in styling your README.md to make it look nice? Don't know ho
 ### STEP 3: Make a New Repo
 1. [Make a new enterprise GitHub repo for your project](https://help.github.com/articles/create-a-repo/). **DO NOT FORK THIS REPO.** 
 2. This new repo should be under your GA Enterprise Github, NOT your personal account.
-2. Make sure your new repo is set to "Public" and initialize it with a README.md file. This will be your project worksheet.
+2. Make sure your new repo is set to "Public" and initialize it with a README.md file. **This will be your project worksheet.**
 3. Send a link for your repository to your Squad Leader.
-4. Clone this new repository down to your machine.
+4. After your have been approved, clone this new repository down to your machine.
 5. CD into the project directory and touch ```index.html```, ```style.css``` and ```script.js``` files.
-6. Test a commit and push it to make sure everything is connected with ```git commit -m "first commit"```.
+6. Test a commit and push it to make sure everything is connected with ```git commit -m "Go Bees!"```.
 
 Note: Your repository should **not** be called `project-1`! Think of a name for your application, and then name your repository after your application. 
 
