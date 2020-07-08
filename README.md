@@ -10,12 +10,12 @@ Before you start any actual coding, you must meet with your Squad Leader for ~10
 - **App Description**: What your app will do.
 - **API**: The API you are using and the information you plan to get from it.
 - **API Snippet**: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
-- **Wireframes**:  The proposed layout and design of your app. Create mockups for multiple views, including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations.
+- **Wireframes**:  The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
 - **MVP**: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 - **Post-MVP**: A list of additional/advanced features you would like to include in your app after you have met MVP.
 - **Goals**: What you plan to accomplish for each day of the project week.
-- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority.
-- **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+- **Priority Matrix**: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as [Cloudinary](https://cloudinary.com/) or a similar hosting service.
+- **Timeframes**: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
 Are you interested in styling your README.md to make it look nice? Don't know how to include photos or create links? Check out this [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
@@ -81,7 +81,7 @@ Your presentation should **NOT**:
 
 You will be sharing your project and your code.  Be prepared to answer questions from the instructors and other students.
 
-Did you read all of the directions before starting? If so write `git commit -m "chill'n in outerspace"` instead of `git commit -m "first commit"` for your first commit.
+Did you read all of the directions before starting? If so write `git commit -m "bee's bee buzz'n"` instead of `git commit -m "first commit"` for your first commit.
 
 ### Step 7: Help and Support
 
@@ -89,7 +89,7 @@ Did you read all of the directions before starting? If so write `git commit -m "
 
 2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and a link to your `issue` ticket. Instructors will not be holding open office hours during project week. This is to allow you to solve issues and errors you run in to on your own and with your classmates. 
 
-3. [Sign up with your name and time here in the P1 Scheduler](https://docs.google.com/spreadsheets/d/14Tj0RhP5s4O4gVU6G_o7drkjjpBxQMhwXjifGywItRE/edit?usp=sharing)
+3. [Sign up here for help with your squad lead.](https://docs.google.com/forms/d/e/1FAIpQLSdNQXP9lOO4-RgXDN6Kg5RXkmydjhsuX9qtwoPwZga2wa8_Fw/viewform)
 
 ### Step 8: Grading
 
