@@ -37,10 +37,11 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
   1. Built with HTML, CSS, and JavaScript.
   1. Styled using `Flexbox` or `Grid`.
   1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+  1. Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
   1. Fulfill the build requirements you have specified in your MVP.
-  2. Deployed site to a hosting service like [Github Pages](https://pages.github.com/).
-  3. Make commits to GitHub every day.
-  4. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
+  1. Deployed site to a hosting service like [Github Pages](https://pages.github.com/).
+  1. Make commits to GitHub every day.
+  1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
 
 #### 📋 List of APIs
 
