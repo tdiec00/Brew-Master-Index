@@ -38,7 +38,7 @@ Note: Your repository should **not** be called `project-1`! Think of a name for 
   1. Styled using `Flexbox` or `Grid`.
   1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
   1. Fulfill the build requirements you have specified in your MVP.
-  2. Deployed to a site hosting service like [Github Pages](https://pages.github.com/).
+  2. Deployed site to a hosting service like [Github Pages](https://pages.github.com/).
   3. Make commits to GitHub every day.
   4. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
 
