@@ -1,4 +1,4 @@
-| **Steve** | **McNasty** | **Jenn/Raul** |
+| **Steve** | **Corey** | **Tara/Jordan** |
 | :-------: | :---------: | :-----------: |
 |  Robert   |    Jeff    |   Sean   |
 |  Barnett  |   Zach   |    Cassandra    |
