@@ -90,7 +90,6 @@ Did you read all of the directions before starting? If so write `git commit -m "
 
 2. Give at least a 10 minutes heads up to an instructor with the link to your project repo and a link to your `issue` ticket. Instructors will not be holding open office hours during project week. This is to allow you to solve issues and errors you run in to on your own and with your classmates. 
 
-3. [Sign up here for help with your squad lead.](https://docs.google.com/forms/d/e/1FAIpQLSdNQXP9lOO4-RgXDN6Kg5RXkmydjhsuX9qtwoPwZga2wa8_Fw/viewform)
 
 ### Step 8: Grading
 
