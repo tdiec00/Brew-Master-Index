@@ -120,3 +120,19 @@ Incomplete projects will be given an extension. An instructor will follow up wit
 ## PLAGIARISM
 
 Remember. We have a **zero-tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism page](https://gist.git.generalassemb.ly/SteveVW/7b780310c82d10df98a4e620abbfbfec).
+
+
+## Past Project Examples: 
+
+* Poke-pedia
+  * https://stefanie-nussbaum.github.io/Poke-pedia/
+  * https://github.com/stefanie-nussbaum/Poke-pedia
+* Wayfinder
+  * https://evankaine.github.io/Wayfinder/
+  * https://github.com/evankaine/Wayfinder
+* Meal Time Insulin
+  * https://luongt13.github.io/meal-time-insulin/
+  * https://github.com/luongt13/meal-time-insulin
+* Long Day
+  * https://long-day.surge.sh/
+  * https://github.com/nikkiicole/Long-Day
