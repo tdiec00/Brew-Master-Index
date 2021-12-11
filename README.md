@@ -22,16 +22,16 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-..*
-..*
-..*
+*
+*
+*
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-..*
-..*
-..*
+*
+*
+*
 
 ## Project Schedule
 
