@@ -2,7 +2,7 @@
 
 ## Project Name
 
-The name of your project.
+Brew Master Index
 
 ## Project Description
 
@@ -14,24 +14,25 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## Wireframes
 
-![Wire frame phone](phone.png)
-![Wire frame desktop](.assets/desktop.png)
+![Wire frame phone](./assets/phone.png)
+![Wire frame desktop](./assets/desktop.png)
 ### MVP/PostMVP
 
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-*
-*
-*
+* Access data from api.
+* Drop down menu with the list of beer names.
+* Generate beer name, description, and ingredient information underneath dropdown menu.
+* Style page with css flexbox.
+* Compatability with phone and desktop screen sizes.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-*
-*
-*
+* Add favorites tab that saves choices of beers
+* Add more information including abv, brewer tips, mash temp, and fermentation temp.
+* Style new elements of page (favorites list, additional info, and favorites button)
+
 
 ## Project Schedule
 
