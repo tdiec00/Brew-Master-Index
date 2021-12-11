@@ -14,7 +14,8 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## Wireframes
 
-![Wire frames for phone and desktop](https://whimsical.com/project-1-3JF9cQLNxuVZ4k7aQoSKGk)
+![Wire frame phone](phone.png)
+![Wire frame desktop](.assets/desktop.png)
 ### MVP/PostMVP
 
 
