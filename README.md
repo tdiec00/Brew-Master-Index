@@ -13,8 +13,10 @@ My project will be a simple database that consists of random beers and recipes f
 ![screenshot of api](./assets/api_screenshot.png)
 
 ## Wireframes
-
+Wire frame for phone screen size
 ![Wire frame phone](./assets/phone.png)
+
+Wire frame for phone desktop screen size
 ![Wire frame desktop](./assets/desktop.png)
 ### MVP/PostMVP
 
@@ -32,6 +34,7 @@ My project will be a simple database that consists of random beers and recipes f
 * Add favorites tab that saves choices of beers
 * Add more information including abv, brewer tips, mash temp, and fermentation temp.
 * Style new elements of page (favorites list, additional info, and favorites button)
+* Add in functionality for tablet screen size.
 
 
 ## Project Schedule
