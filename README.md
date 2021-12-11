@@ -10,7 +10,7 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+(./assets/api_screenshot.png)
 
 ## Wireframes
 
