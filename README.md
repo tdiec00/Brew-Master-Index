@@ -14,6 +14,7 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## Wireframes
 Wire frame for phone screen size
+
 ![Wire frame phone](./assets/phone.png)
 
 Wire frame for phone desktop screen size
