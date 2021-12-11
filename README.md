@@ -10,7 +10,7 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## API and Data Sample
 
-(./assets/api_screenshot.png)
+![screenshot of api](./assets/api_screenshot.png)
 
 ## Wireframes
 
