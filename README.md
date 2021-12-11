@@ -14,8 +14,7 @@ My project will be a simple database that consists of random beers and recipes f
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
+![Wire frames for phone and desktop](https://whimsical.com/project-1-3JF9cQLNxuVZ4k7aQoSKGk)
 ### MVP/PostMVP
 
 
@@ -41,7 +40,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Dec 13| Project Approval | Incomplete
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
