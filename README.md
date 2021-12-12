@@ -74,7 +74,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Create dropdown menu for list of objects| H | 3hrs| | |
 | Create favorites button and save information to page| M | 4hr| | |
 | Debugging API information and submit/click function| M | 3hrs | | |
-| Set background image, style html, and buttons/dropdown boxes| 3hrs| ||
+| Set background image, style html, and buttons/dropdown boxes| H | 3hrs| ||
 | CSS flexbox styling| H | 3hrs| | |
 | Media query for different size screens| H | 2.5hrs| | |
 | Cleaning and refactoring code| M | 3hr| | |
