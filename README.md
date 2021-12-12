@@ -18,6 +18,7 @@ Wire frame for phone screen size
 ![Wire frame phone](./assets/phone.png)
 
 Wire frame for phone desktop screen size
+
 ![Wire frame desktop](./assets/desktop.png)
 ### MVP/PostMVP
 
@@ -66,9 +67,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Basic HTML setup| H | 2.5hrs|  |  |
+| Retreive date from API | H | 2.5hrs|  | |
+| Incorporate API info to DOM| H | 5hrs| | |
+| Create form, dropdown list, and add submit/click listener| H | 3hrs | | |
+| Create dropdown menu for list of objects| H | 3hrs| | |
+| Create favorites button and save information to page| M | 4hr| | |
+| Debugging API information and submit/click function| M | 3hrs | | |
+| Set background image, style html, and buttons/dropdown boxes| 3hrs| ||
+| CSS flexbox styling| H | 3hrs| | |
+| Media query for different size screens| H | 2.5hrs| | |
+| Cleaning and refactoring code| M | 3hr| | |
+| Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hr| | |
+| Styling of new additional information| L | 4hrs| | |
+|Total:| | 41.5| | |
+
+
 
 ## Code Snippet
 
