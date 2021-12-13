@@ -7,6 +7,7 @@
 // fetchInfo();
 
 const beerList = document.querySelector(".beer-list")
+const beerSelect = document.querySelector("#beer-select")
 
 // function to retreive array of beers
 async function getBeers() {
@@ -28,10 +29,7 @@ getBeers();
 // convert from object
 function convertBeers(beer) {
   for (let a = 0; a < beer.length; a++) {
-    // let newBeers = [];
-    // console.log(beer[a].name)
     let beers = beer[a].name;
-    // console.log(beers);
     setBeerValues(beers);
   }
 }
@@ -39,11 +37,10 @@ function convertBeers(beer) {
 
 //function to set value of beer to DOM
 function setBeerValues(beers) {
-  // beers.forEach(beer => {
   let option = document.createElement("option");
   option.value = beers;
   option.innerHTML = beers;
-  beerList.appendChild(option);
+  beerSelect.appendChild(option);
 }
 
 
