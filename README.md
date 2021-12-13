@@ -64,7 +64,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML setup| H | 2.5hrs|  |  |
+| Basic HTML setup| H | 2.5hrs| 0.5hr |  |
 | Retreive data from API | H | 2.5hrs| 1hr | |
 | Incorporate API info to DOM| H | 5hrs| | |
 | Create form, dropdown list, and add submit/click listener| H | 3hrs | | |
