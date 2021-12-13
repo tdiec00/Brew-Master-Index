@@ -66,9 +66,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | --- | :---: |  :---: | :---: | :---: |
 | Basic HTML setup| H | 2.5hrs| 0.5hr |  |
 | Retreive data from API | H | 2.5hrs| 1hr | |
-| Incorporate API info to DOM| H | 5hrs|3.5hrs | |
-| Create form, dropdown list, and add submit/click listener| H | 3hrs | | |
-| Create dropdown menu for list of objects| H | 3hrs| | |
+| Incorporate API info to DOM| H | 5hrs| 2hrs | |
+| Create form, dropdown list, and add submit/click listener| H | 3hrs | 2hrs | |
 | Create favorites button and save information to page| M | 4hr| | |
 | Debugging API information and submit/click function| M | 3hrs | | |
 | Set background image, style html, and buttons/dropdown boxes| H | 3hrs| ||
@@ -77,7 +76,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Cleaning and refactoring code| M | 3hr| | |
 | Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hr| | |
 | Styling of new additional information| L | 4hrs| | |
-|Total:| | 41.5| | |
+|Total:| | 38.5| | |
 
 
 
