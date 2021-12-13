@@ -8,10 +8,12 @@
 
 const beerList = document.querySelector(".beer-list")
 const beerSelect = document.querySelector("#beer-select")
-
+const searchList = document.querySelector(".search-list")
+const beerData = document.querySelector(".beer-data")
+let beers = [];
 // function to retreive array of beers
 async function getBeers() {
-  let beers = [];
+  
 
   for (let i = 1; i < 2; i++) {
 
@@ -19,12 +21,19 @@ async function getBeers() {
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
-    // console.log(beers)
+    console.log(beers)
+    storeArr(beers);
     // setBeerValues(beers);
     convertBeers(beers);
   }
 }
 getBeers();
+
+// store in array
+function storeArr(beers) {
+  arr = beers
+  return arr;
+}
 
 // convert from object
 function convertBeers(beer) {
@@ -34,6 +43,15 @@ function convertBeers(beer) {
   }
 }
 
+// show beer data on page
+function showBeerData(obj) {
+  let beerInfo = obj.name;
+  let newText = document.createElement("p");
+  newText.innerHTML = `Beer Name: ${beerInfo}`;
+  beerData.appendChild(newText);
+    
+  }
+  
 
 //function to set value of beer to DOM
 function setBeerValues(beers) {
@@ -41,6 +59,31 @@ function setBeerValues(beers) {
   option.value = beers;
   option.innerHTML = beers;
   beerSelect.appendChild(option);
+
 }
+beerSelect.addEventListener("change", handleChange);
+
+function handleChange(event) {
+  event.preventDefault();
+  // console.log(beerSelect.value);
+  // console.log(this.value)
+  let displayBeer = beers.filter(beer=> {
+    if (beer.name == this.value) {
+      return beer
+    }
+  })
+  // console.log(displayBeer[0].name);
+
+  showBeerData(displayBeer[0]);
+}
+// search function for submit tab
+// function handleSearch(event) {
+//   event.preventDefault();
+//   console.log(searchList.value);
+//   let listValue = searchList.value;
+//   searchList.value = "";
+  
+// }
+
 
 
