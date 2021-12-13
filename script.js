@@ -45,10 +45,16 @@ function convertBeers(beer) {
 
 // show beer data on page
 function showBeerData(obj) {
-  let beerInfo = obj.name;
-  let newText = document.createElement("p");
-  newText.innerHTML = `Beer Name: ${beerInfo}`;
-  beerData.appendChild(newText);
+
+  let beerName = obj.name;
+  let newName = document.createElement("p");
+  newName.innerHTML = `Beer Name: ${beerName}`;
+  beerData.appendChild(newName);
+
+  let beerDesc = obj.description;
+  let newDesc = document.createElement("p");
+  newDesc.innerHTML = `Description: ${beerDesc}`;
+  beerData.appendChild(newDesc);
     
   }
   
