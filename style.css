@@ -4,6 +4,7 @@ header{
   display: flex;
   align-items: center;
     justify-content: center;
+    margin-bottom: -80px;
 }
 
 .img1{
@@ -11,6 +12,38 @@ header{
   margin: auto;
 }
 
+
 body{
   background-color: rgb(254, 253, 253);
+}
+
+.section1{
+  background-color: rgb(252, 225, 142);
+  height: 30vh;
+  margin-top: -70px;
+}
+
+.section1 p{
+  text-align: center;
+  display: flex;
+  width: 60vw;
+  margin: auto;
+}
+
+.section1 h3{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.section1 form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#beer-select{
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  border: 2px solid rgb(169, 169, 168);
 }
