@@ -8,6 +8,8 @@ const beerDesc = document.querySelector(".beer-description")
 const hopsList = document.querySelector(".hops");
 const maltList = document.querySelector(".malt")
 const yeastList = document.querySelector(".yeast")
+const favList = document.querySelector(".favorites")
+const favButton = document.querySelector(".favButton")
 let beers = [];
 
 
@@ -132,6 +134,21 @@ function handleChange(event) {
 
 }
 
+//event listener "click" add to favList
+favButton.addEventListener("click", handleFavList)
+
+function handleFavList(event) {
+  console.log(beerName);
+  // let newFav = beerName;
+  // let addFav = document.createElement("li");
+  // addFav.innerHTML(newFav);
+  // favList.appendChild(addFav);
+
+}
+
+
+
+// remove data before populating next choice
 function removeData() {
   beerName.innerHTML = "";
   beerDesc.innerHTML = "";
