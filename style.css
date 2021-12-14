@@ -30,7 +30,6 @@ height: auto;
   position: absolute;
   width: 100vw;
   text-align: center;
-  height: 30vh;
 }
 
 .section1 p{
@@ -69,6 +68,18 @@ height: auto;
   display: block;
 
 }
+
+.container3{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.container-info{
+text-align: left;
+
+}
+
 /* body{
   margin: 0;
 }
