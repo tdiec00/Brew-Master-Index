@@ -4,7 +4,9 @@ const beerList = document.querySelector(".beer-list")
 const beerSelect = document.querySelector("#beer-select")
 const searchList = document.querySelector(".search-list")
 const beerData = document.querySelector(".beer-data")
-const beerIng = document.querySelector(".ingredients")
+const hopsList = document.querySelector(".hops");
+const maltList = document.querySelector(".malt")
+const yeastList = document.querySelector(".yeast")
 let beers = [];
 
 
@@ -33,6 +35,24 @@ function convertBeers(beer) {
   }
 }
 
+// function to remove duplicates in array
+function removeDups(obj) {
+  let newArr = []
+  // push values into new array
+  let arr1 = obj.ingredients.hops
+  for (let i = 0; i < arr1.length; i++) {
+    arr2 = arr1[i].name;
+    newArr.push(arr2)
+  }
+  //**found this code on youtube link "https://www.youtube.com/watch?v=dvPybpgk5Y4"**
+  // removes duplicates and adds to new array
+  obj = {};
+  for (let i of newArr) {
+    obj[i] = true;
+  }
+  let newArr2 = Object.keys(obj);
+  showHops(newArr2);
+}
 
 // show beer data on page
 function showBeerData(obj) {
@@ -56,8 +76,8 @@ function showMalt(obj) {
     // console.log(maltArr[i].name)
     let malt = maltArr[i].name
     let newMalt = document.createElement("p");
-    newMalt.innerHTML = `Malt: ${malt}`;
-    beerIng.appendChild(newMalt);
+    newMalt.innerHTML = `${malt}`;
+    maltList.appendChild(newMalt);
   }
 }
 //shows yeast on page
@@ -65,27 +85,8 @@ function showYeast(obj) {
   // yeast works
   let yeast = obj.ingredients.yeast;
   let newYeast = document.createElement("p");
-  newYeast.innerHTML = `Yeast: ${yeast}`;
-  beerIng.appendChild(newYeast);
-}
-
-// function to remove duplicates in array
-function removeDups(obj) {
-  let newArr = []
-  // push values into new array
-  let arr1 = obj.ingredients.hops
-  for (let i = 0; i < arr1.length; i++) {
-    arr2 = arr1[i].name;
-    newArr.push(arr2)
-  }
-  //**found this code on youtube link "https://www.youtube.com/watch?v=dvPybpgk5Y4"**
-  // removes duplicates and adds to new array
-  obj = {};
-  for (let i of newArr) {
-    obj[i] = true;
-  }
-  let newArr2 = Object.keys(obj);
-  showHops(newArr2);
+  newYeast.innerHTML = `${yeast}`;
+  yeastList.appendChild(newYeast);
 }
 
 // adds hops on page
@@ -93,8 +94,8 @@ function showHops(obj) {
   let hopsName = obj;
   hopsName.forEach(obj => {
     let newHops = document.createElement("p");
-    newHops.innerHTML = `Hops: ${obj}`;
-    beerIng.appendChild(newHops);
+    newHops.innerHTML = `${obj}`;
+    hopsList.appendChild(newHops);
   })
 }
 
@@ -131,7 +132,9 @@ function handleChange(event) {
 
 function removeData() {
   beerData.innerHTML = "";
-  beerIng.innerHTML = "";
+  hopsList.innerHTML = "";
+  yeastList.innerHTML = "";
+  maltList.innerHTML = "";
 }
 
 
