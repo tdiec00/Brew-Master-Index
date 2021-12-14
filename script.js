@@ -4,6 +4,7 @@ const beerList = document.querySelector(".beer-list")
 const beerSelect = document.querySelector("#beer-select")
 const searchList = document.querySelector(".search-list")
 const beerData = document.querySelector(".beer-data")
+const beerIng = document.querySelector(".ingredients")
 let beers = [];
 
 
@@ -45,7 +46,36 @@ function showBeerData(obj) {
   let newDesc = document.createElement("p");
   newDesc.innerHTML = `Description: ${beerDesc}`;
   beerData.appendChild(newDesc);
+}
 
+function showIngredients(obj) {
+  removeData();
+
+
+  // let hopsName = hops[i].name;
+  // let newHopsName = document.createElement("p");
+  // newHopsName.innerHTML = `Hops: ${hopsName}`;
+  // beerIng.appendChild(newHopsName);
+  // let hops = document.createElement("p");
+  // newHops.innerHTML = `Hops: ${ingredients}`;
+  // beerData.appendChild(newHops);
+
+  //malt works
+  let maltArr = obj.ingredients.malt;
+  for (let i = 0; i < maltArr.length; i++) {
+    // console.log(maltArr[i].name)
+    let malt = maltArr[i].name
+    let newMalt = document.createElement("p");
+    newMalt.innerHTML = `Malt: ${malt}`;
+    beerIng.appendChild(newMalt);
+  }
+
+
+  // yeast works
+  let yeast = obj.ingredients.yeast;
+  let newYeast = document.createElement("p");
+  newYeast.innerHTML = `Yeast: ${yeast}`;
+  beerIng.appendChild(newYeast);
 }
 
 
@@ -72,11 +102,13 @@ function handleChange(event) {
   })
   // console.log(displayBeer[0].name);
 
-  showBeerData(displayBeer[0]);
+  // showBeerData(displayBeer[0]);
+  showIngredients(displayBeer[0]);
 }
 
 function removeData() {
   beerData.innerHTML = "";
+  beerIng.innerHTML = "";
 }
 
 
