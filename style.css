@@ -1,49 +1,109 @@
 header{
   background-color: rgb(252, 225, 142);
-  height: 30vh;
-  display: flex;
   align-items: center;
     justify-content: center;
     margin-bottom: -80px;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
 }
 
+.body{
+  background-color: rgb(252, 225, 142);
+  
+}
 .img1{
   display: flex;
   margin: auto;
 }
 
 
-body{
+/* body{
   background-color: rgb(254, 253, 253);
-}
+} */
 
 .section1{
   background-color: rgb(252, 225, 142);
-  height: 30vh;
   margin-top: -70px;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  height: 30vh;
 }
 
 .section1 p{
-  text-align: center;
+  
   display: flex;
   width: 60vw;
   margin: auto;
 }
 
 .section1 h3{
-  text-align: center;
+  
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .section1 form {
-  text-align: center;
-  margin-top: 20px;
+  
+  margin-top: 10px;
 }
 
 #beer-select{
-  text-align: center;
+  
   width: 200px;
   height: 40px;
   border: 2px solid rgb(169, 169, 168);
 }
+
+.beer-data{
+  margin-top: 10px;
+}
+.beer-data p{
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+
+}
+/* body{
+  margin: 0;
+}
+
+.header{
+  background-color: rgb(252, 225, 142);
+  position: absolute;
+width: 100vw;
+}
+
+.title{
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.img1{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  display:block;
+}
+
+.section1{
+  background-color: rgb(252, 225, 142);
+  margin-top: -60px;
+  height: 40vw;
+  position: absolute;
+} */
+
+/* .section1 p{
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  margin: auto;
+} */
+
+/* #beer-select{
+  position: absolute;
+  display: inline-block;
+} */
