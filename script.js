@@ -48,18 +48,8 @@ function showBeerData(obj) {
   beerData.appendChild(newDesc);
 }
 
-function showIngredients(obj) {
-  removeData();
 
-
-  // let hopsName = hops[i].name;
-  // let newHopsName = document.createElement("p");
-  // newHopsName.innerHTML = `Hops: ${hopsName}`;
-  // beerIng.appendChild(newHopsName);
-  // let hops = document.createElement("p");
-  // newHops.innerHTML = `Hops: ${ingredients}`;
-  // beerData.appendChild(newHops);
-
+function showMalt(obj) {
   //malt works
   let maltArr = obj.ingredients.malt;
   for (let i = 0; i < maltArr.length; i++) {
@@ -69,8 +59,9 @@ function showIngredients(obj) {
     newMalt.innerHTML = `Malt: ${malt}`;
     beerIng.appendChild(newMalt);
   }
+}
 
-
+function showYeast(obj) {
   // yeast works
   let yeast = obj.ingredients.yeast;
   let newYeast = document.createElement("p");
@@ -78,6 +69,31 @@ function showIngredients(obj) {
   beerIng.appendChild(newYeast);
 }
 
+function removeDups(obj) {
+  let newArr = []
+  let arr1 = obj.ingredients.hops;
+  for (let i = 0; i < arr1.length; i++) {
+    arr2 = arr1[i].name;
+    newArr.push(arr2)
+  }
+  //**found this code on youtube link "https://www.youtube.com/watch?v=dvPybpgk5Y4"**
+  obj = {};
+  for (let i of newArr) {
+    obj[i] = true;
+  }
+  let newArr2 = Object.keys(obj);
+  showHops(newArr2);
+}
+
+function showHops(obj) {
+  removeData();
+  let hopsName = obj;
+  hopsName.forEach(obj => {
+    let newHops = document.createElement("p");
+    newHops.innerHTML = `Hops: ${obj}`;
+    beerIng.appendChild(newHops);
+  })
+}
 
 //function to set value of beer to dropdown list
 function setBeerValues(beers) {
@@ -103,7 +119,10 @@ function handleChange(event) {
   // console.log(displayBeer[0].name);
 
   // showBeerData(displayBeer[0]);
-  showIngredients(displayBeer[0]);
+  // showIngredients(displayBeer[0]);
+
+  showMalt(displayBeer[0])
+  showYeast(displayBeer[0])
 }
 
 function removeData() {
