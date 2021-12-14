@@ -75,7 +75,7 @@ function showMalt(obj) {
   for (let i = 0; i < maltArr.length; i++) {
     // console.log(maltArr[i].name)
     let malt = maltArr[i].name
-    let newMalt = document.createElement("p");
+    let newMalt = document.createElement("li");
     newMalt.innerHTML = `${malt}`;
     maltList.appendChild(newMalt);
   }
@@ -84,7 +84,7 @@ function showMalt(obj) {
 function showYeast(obj) {
   // yeast works
   let yeast = obj.ingredients.yeast;
-  let newYeast = document.createElement("p");
+  let newYeast = document.createElement("li");
   newYeast.innerHTML = `${yeast}`;
   yeastList.appendChild(newYeast);
 }
@@ -93,7 +93,7 @@ function showYeast(obj) {
 function showHops(obj) {
   let hopsName = obj;
   hopsName.forEach(obj => {
-    let newHops = document.createElement("p");
+    let newHops = document.createElement("li");
     newHops.innerHTML = `${obj}`;
     hopsList.appendChild(newHops);
   })
