@@ -22,7 +22,7 @@ async function getBeers() {
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
-    console.log(beers)
+    // console.log(beers)
     // setBeerValues(beers);
     convertBeers(beers);
   }
@@ -103,6 +103,14 @@ function showHops(obj) {
   })
 }
 
+// adds beer name to favorite list
+function addFavList(obj) {
+  let newFav = obj;
+  let addFav = document.createElement("li");
+  addFav.innerHTML = `${newFav}`;
+  favList.appendChild(addFav);
+}
+
 //function to set value of beer to dropdown list
 function setBeerValues(beers) {
   let option = document.createElement("option");
@@ -117,7 +125,7 @@ beerSelect.addEventListener("change", handleChange);
 
 //function for after "change" eventlistener 
 function handleChange(event) {
-  // event.preventDefault();
+
   removeData();
   let displayBeer = beers.filter(beer => {
     if (beer.name == this.value) {
@@ -126,25 +134,31 @@ function handleChange(event) {
   })
   // console.log(displayBeer[0].name);
 
-  showBeerName(displayBeer[0]);
-  showBeerDesc(displayBeer[0]);
-  showYeast(displayBeer[0])
-  showMalt(displayBeer[0])
-  removeDups(displayBeer[0]);
-
+  // showBeerName(displayBeer[0]);
+  // showBeerDesc(displayBeer[0]);
+  // showYeast(displayBeer[0])
+  // showMalt(displayBeer[0])
+  // removeDups(displayBeer[0]);
+  favBeerName(displayBeer[0].name)
+}
+//store beerName value for favList
+function favBeerName(beerName) {
+  //event listener "click" add to favList
+  function handleFavList(event) {
+    event.preventDefault();
+    return beerName;
+  }
+  addFavList(beerName)
+  favButton.addEventListener("click", handleFavList)
 }
 
-//event listener "click" add to favList
-favButton.addEventListener("click", handleFavList)
 
-function handleFavList(event) {
-  console.log(beerName);
-  // let newFav = beerName;
-  // let addFav = document.createElement("li");
-  // addFav.innerHTML(newFav);
-  // favList.appendChild(addFav);
 
-}
+// function handleFavList(event) {
+//   event.preventDefault();
+
+
+// }
 
 
 
