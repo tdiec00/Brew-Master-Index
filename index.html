@@ -18,7 +18,7 @@
     <h1 class="title">Welcome to Brew Master Index</h1>
   </div>
 
-  <div class="section1">
+  <div class="container">
     <p>
       Hello my fellow brewer. Are you a first timer and not sure which beer to start with? Or maybe you have explored
       around and are
@@ -26,15 +26,15 @@
       ingredients, and
       experience how to get your brew on!
     </p>
-    <h2>Check out below to get started</h2>
-
-    <form>
-      <select id="beer-select">
-        <option class="beer-list" hidden default selected="false">Select Beer</option>
-      </select>
-      <!-- input function for post MVP to search by beer name or abv    -->
-      <!-- <input class="search-list" type="text" placeholder="search by beer name or abv"> -->
-    </form>
+  </div>
+  <h2>Check out below to get started</h2 <form>
+  <p>Select a beer from the list to get more information</p>
+  <select id="beer-select">
+    <option class="beer-list" hidden default selected="false">Select Beer</option>
+  </select>
+  <!-- input function for post MVP to search by beer name or abv    -->
+  <!-- <input class="search-list" type="text" placeholder="search by beer name or abv"> -->
+  </form>
   </div>
   <!-- <div class="container-img">
     <div>
@@ -42,7 +42,15 @@
     </div>
   </div> -->
   <div class="container1">
-    <div class="beer-data"></div>
+    <h2>Beer Name</h2>
+    <div class="beer-name">
+
+    </div>
+    <h2>Description</h2>
+    <div class="beer-description">
+
+    </div>
+  </div>
   </div>
   <div class="container2">
     <h1>Ingredients List</h1>
@@ -50,8 +58,9 @@
       <div class="container3">
 
         <div class="container-info">
-          <h3>Hops List</h3>
-          <div class="hops">
+          <h3>Yeast List</h3>
+
+          <div class="yeast">
             <ul></ul>
           </div>
         </div>
@@ -64,8 +73,8 @@
         </div>
 
         <div class="container-info">
-          <h3>Yeast List</h3>
-          <div class="yeast">
+          <h3>Hops List</h3>
+          <div class="hops">
             <ul></ul>
           </div>
         </div>

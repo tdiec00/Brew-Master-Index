@@ -3,7 +3,8 @@
 const beerList = document.querySelector(".beer-list")
 const beerSelect = document.querySelector("#beer-select")
 const searchList = document.querySelector(".search-list")
-const beerData = document.querySelector(".beer-data")
+const beerName = document.querySelector(".beer-name")
+const beerDesc = document.querySelector(".beer-description")
 const hopsList = document.querySelector(".hops");
 const maltList = document.querySelector(".malt")
 const yeastList = document.querySelector(".yeast")
@@ -54,18 +55,19 @@ function removeDups(obj) {
   showHops(newArr2);
 }
 
-// show beer data on page
-function showBeerData(obj) {
-  removeData();
-  let beerName = obj.name;
+// show beer name on page
+function showBeerName(obj) {
+  let beerNameDisplay = obj.name;
   let newName = document.createElement("p");
-  newName.innerHTML = `Beer Name: ${beerName}`;
-  beerData.appendChild(newName);
-
-  let beerDesc = obj.description;
+  newName.innerHTML = `${beerNameDisplay}`;
+  beerName.appendChild(newName);
+}
+// show beer description on page
+function showBeerDesc(obj) {
+  let beerDescDisplay = obj.description;
   let newDesc = document.createElement("p");
-  newDesc.innerHTML = `Description: ${beerDesc}`;
-  beerData.appendChild(newDesc);
+  newDesc.innerHTML = `${beerDescDisplay}`;
+  beerDesc.appendChild(newDesc);
 }
 
 // shows malt on page
@@ -122,8 +124,8 @@ function handleChange(event) {
   })
   // console.log(displayBeer[0].name);
 
-  // showBeerData(displayBeer[0]);
-  // showIngredients(displayBeer[0]);
+  showBeerName(displayBeer[0]);
+  showBeerDesc(displayBeer[0]);
   showYeast(displayBeer[0])
   showMalt(displayBeer[0])
   removeDups(displayBeer[0]);
@@ -131,10 +133,12 @@ function handleChange(event) {
 }
 
 function removeData() {
-  beerData.innerHTML = "";
+  beerName.innerHTML = "";
+  beerDesc.innerHTML = "";
   hopsList.innerHTML = "";
   yeastList.innerHTML = "";
   maltList.innerHTML = "";
+
 }
 
 
