@@ -48,7 +48,7 @@ function showBeerData(obj) {
   beerData.appendChild(newDesc);
 }
 
-
+// shows malt on page
 function showMalt(obj) {
   //malt works
   let maltArr = obj.ingredients.malt;
@@ -60,7 +60,7 @@ function showMalt(obj) {
     beerIng.appendChild(newMalt);
   }
 }
-
+//shows yeast on page
 function showYeast(obj) {
   // yeast works
   let yeast = obj.ingredients.yeast;
@@ -69,14 +69,17 @@ function showYeast(obj) {
   beerIng.appendChild(newYeast);
 }
 
+// function to remove duplicates in array
 function removeDups(obj) {
   let newArr = []
-  let arr1 = obj.ingredients.hops;
+  // push values into new array
+  let arr1 = obj.ingredients.hops
   for (let i = 0; i < arr1.length; i++) {
     arr2 = arr1[i].name;
     newArr.push(arr2)
   }
   //**found this code on youtube link "https://www.youtube.com/watch?v=dvPybpgk5Y4"**
+  // removes duplicates and adds to new array
   obj = {};
   for (let i of newArr) {
     obj[i] = true;
@@ -85,8 +88,8 @@ function removeDups(obj) {
   showHops(newArr2);
 }
 
+// adds hops on page
 function showHops(obj) {
-  removeData();
   let hopsName = obj;
   hopsName.forEach(obj => {
     let newHops = document.createElement("p");
@@ -110,7 +113,7 @@ beerSelect.addEventListener("change", handleChange);
 //function for after "change" eventlistener 
 function handleChange(event) {
   // event.preventDefault();
-
+  removeData();
   let displayBeer = beers.filter(beer => {
     if (beer.name == this.value) {
       return beer
@@ -120,9 +123,10 @@ function handleChange(event) {
 
   // showBeerData(displayBeer[0]);
   // showIngredients(displayBeer[0]);
-
-  showMalt(displayBeer[0])
   showYeast(displayBeer[0])
+  showMalt(displayBeer[0])
+  removeDups(displayBeer[0]);
+
 }
 
 function removeData() {
