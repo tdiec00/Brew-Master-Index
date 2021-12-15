@@ -67,13 +67,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Basic HTML setup| H | 2.5hrs| 0.5hrs |  |
 | Retreive data from API | H | 2.5hrs| 1hrs | |
 | Incorporate API info to DOM| H | 5hrs| 6hrs | |
-| Create form, dropdown list, and add submit/click listener| H | 3hrs | 2hrs | |
-| Create favorites button and save information to page| M | 4hr| 2hrs | |
+| Create form, dropdown list, and add submit/click listener| H | 3hrs | 4hrs | |
+| Create favorites button and save information to page| M | 4hr| 3hrs | |
 | Debugging API information and submit/click function| M | 3hrs |2hrs | |
-| Set background image, style html, and buttons/dropdown boxes| H | 3hrs| 2hrs ||
+| Set background image, style html, and buttons/dropdown boxes| H | 3hrs| 4hrs ||
 | CSS flexbox styling| H | 3hrs| 7hrs | |
 | Media query for different size screens| H | 2.5hrs| 3hrs| |
-| Cleaning and refactoring code| M | 3hrs| | |
+| Cleaning and refactoring code| M | 3hrs| 3hrs | |
 | Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hrs| | |
 | Styling of new additional information| L | 4hrs| | |
 |Total:| | 38.5| | |
@@ -109,3 +109,5 @@ There were duplicate values in the hops array, so I created a function to push t
 ## Change Log
  Decided not to add a background image.
  Text structure and input boxes styled differently than initial wireframe.
+ Favorites list does not allow duplicates.
+ Alphabetized values in dropdown list.

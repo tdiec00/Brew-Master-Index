@@ -10,6 +10,9 @@ const maltList = document.querySelector(".malt")
 const yeastList = document.querySelector(".yeast")
 const favList = document.querySelector(".favorites")
 const favButton = document.querySelector(".favButton")
+const fermTemp = document.querySelector(".ferm-temp")
+const mashTemp = document.querySelector(".mash-temp")
+const mashDur = document.querySelector(".mash-dur")
 let beers = [];
 
 
@@ -125,6 +128,25 @@ function showHops(obj) {
   })
 }
 
+function showFermTemp(obj) {
+  newFermTemp = obj.method.fermentation.temp;
+  let dispFermTemp = document.createElement("p");
+  dispFermTemp.innerHTML = `${newFermTemp.value} degrees ${newFermTemp.unit}`
+  fermTemp.appendChild(dispFermTemp);
+}
+
+function showMashTemp(obj) {
+  newMashTemp = obj.method.mash_temp[0].temp;
+  let dispMashTemp = document.createElement("p");
+  dispMashTemp.innerHTML = `${newMashTemp.value} degrees ${newMashTemp.unit}`
+  mashTemp.appendChild(dispMashTemp);
+
+  newMashDur = obj.method.mash_temp[0].duration;
+  let dispMashDur = document.createElement("p");
+  dispMashDur.innerHTML = `${newMashDur} minutes`;
+  mashDur.appendChild(dispMashDur);
+}
+
 // adds beer name to favorite list
 function addFavList(obj) {
   let newFav = obj;
@@ -177,8 +199,10 @@ function handleChange(event) {
   showBeerName(displayBeer[0]);
   showBeerAbv(displayBeer[0]);
   showBeerDesc(displayBeer[0]);
-  showYeast(displayBeer[0])
-  showMalt(displayBeer[0])
+  showYeast(displayBeer[0]);
+  showMalt(displayBeer[0]);
+  showFermTemp(displayBeer[0]);
+  showMashTemp(displayBeer[0]);
   removeDups(displayBeer[0]);
 }
 
