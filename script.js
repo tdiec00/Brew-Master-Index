@@ -13,26 +13,41 @@ const favButton = document.querySelector(".favButton")
 let beers = [];
 
 
+
 // function to retreive array of beers
 async function getBeers() {
 
-  for (let i = 1; i < 4; i++) {
+  for (let i = 1; i < 2; i++) {
 
     let url = `https://api.punkapi.com/v2/beers?page=${i}&per_page=80`
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
     console.log(beers)
-    convertBeers(beers);
+    // convertBeers(beers);
+    alphabetize(beers);
   }
 }
 getBeers();
 
-
-// convert from object
-function convertBeers(beer) {
+// push value into array and alphabetize
+function alphabetize(beer) {
+  let beerArr = [];
   for (let a = 0; a < beer.length; a++) {
     let beers = beer[a].name;
+    beerArr.push(beers)
+  }
+  beerArr.sort();
+  // console.log(beerArr);
+  convertBeers(beerArr);
+}
+
+
+// convert alphabetized array into values
+function convertBeers(beer) {
+  for (let a = 0; a < beer.length; a++) {
+    let beers = beer[a];
+    // console.log(beer[a]);
     setBeerValues(beers);
   }
 }
@@ -188,5 +203,4 @@ function removeData() {
   maltList.innerHTML = "";
 
 }
-
 
