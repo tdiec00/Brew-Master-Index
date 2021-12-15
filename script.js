@@ -61,7 +61,7 @@ function showBeerName(obj) {
   let beerNameDisplay = obj.name;
   let beerAbvDisplay = obj.abv;
   let newName = document.createElement("h2");
-  newName.innerHTML = `${beerNameDisplay}  ${beerAbvDisplay}%`;
+  newName.innerHTML = `${beerNameDisplay}`;
   beerName.appendChild(newName);
 }
 // show beer description on page
@@ -106,9 +106,11 @@ function showHops(obj) {
 // adds beer name to favorite list
 function addFavList(obj) {
   let newFav = obj;
+  noDupFavs(newFav)
   let addFav = document.createElement("li");
   addFav.innerHTML = `${newFav}`;
   favList.appendChild(addFav);
+
 }
 
 //function to set value of beer to dropdown list
@@ -119,6 +121,21 @@ function setBeerValues(beers) {
   beerSelect.appendChild(option);
 
 }
+
+// this function removes  duplicate values from the favorites list
+function noDupFavs(favBeer) {
+  // let favListElements = favList;
+  let favListElements = favList.getElementsByTagName("li")
+  for (let i = 0; i < favListElements.length; i++) {
+    let currentList = favListElements[i].innerText
+    // console.log(favListElements[0]);
+    // console.log(favBeer);
+    if (currentList == favBeer) {
+      favListElements[i].remove();
+    }
+  }
+}
+
 
 // eventlistener for select beer dropdown
 beerSelect.addEventListener("change", handleChange);
