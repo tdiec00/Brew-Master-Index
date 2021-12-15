@@ -13,6 +13,10 @@
   margin:auto;
 max-width: 70vw;
 }
+.favButton{
+  margin-top: 8px;
+  height: 25px;
+}
 
 .beer-description{
   max-width: 70vw;
@@ -28,6 +32,8 @@ max-width: 70vw;
 .container-info{
 text-align: left;
 }
+
+
 
 @media screen and (max-width: 550px) {
  
