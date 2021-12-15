@@ -225,6 +225,9 @@ function removeData() {
   hopsList.innerHTML = "";
   yeastList.innerHTML = "";
   maltList.innerHTML = "";
+  fermTemp.innerHTML = "";
+  mashTemp.innerHTML = "";
+  mashDur.innerHTML = "";
 
 }
 
