@@ -71,8 +71,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Create favorites button and save information to page| M | 4hr| 2hrs | |
 | Debugging API information and submit/click function| M | 3hrs |2hrs | |
 | Set background image, style html, and buttons/dropdown boxes| H | 3hrs| 2hrs ||
-| CSS flexbox styling| H | 3hrs| 6hrs | |
-| Media query for different size screens| H | 2.5hrs| 2hrs| |
+| CSS flexbox styling| H | 3hrs| 7hrs | |
+| Media query for different size screens| H | 2.5hrs| 3hrs| |
 | Cleaning and refactoring code| M | 3hrs| | |
 | Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hrs| | |
 | Styling of new additional information| L | 4hrs| | |
@@ -85,10 +85,27 @@ You are **responsible** for scheduling time with your squad to seek approval for
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function removeDups(obj) {
+  let newArr = []
+  // push values into new array
+  let arr1 = obj.ingredients.hops
+  for (let i = 0; i < arr1.length; i++) {
+    arr2 = arr1[i].name;
+    newArr.push(arr2)
+  }
+  //**found this code on youtube link "https://www.youtube.com/watch?v=dvPybpgk5Y4"**
+  // removes duplicates and adds to new array
+  obj = {};
+  for (let i of newArr) {
+    obj[i] = true;
+  }
+  let newArr2 = Object.keys(obj);
+  showHops(newArr2);
 }
+
+There were duplicate values in the hops array, so I created a function to push those values into a new array, and remove duplicate values from the array to create a new array.
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Decided not to add a backgroun image.
+ Text structure and input boxes styled differently than initial wireframe.
