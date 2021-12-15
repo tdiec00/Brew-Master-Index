@@ -107,5 +107,5 @@ There were duplicate values in the hops array, so I created a function to push t
 ```
 
 ## Change Log
- Decided not to add a backgroun image.
+ Decided not to add a background image.
  Text structure and input boxes styled differently than initial wireframe.

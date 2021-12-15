@@ -22,8 +22,7 @@ async function getBeers() {
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
-    // console.log(beers)
-    // setBeerValues(beers);
+    console.log(beers)
     convertBeers(beers);
   }
 }
@@ -60,8 +59,9 @@ function removeDups(obj) {
 // show beer name on page
 function showBeerName(obj) {
   let beerNameDisplay = obj.name;
-  let newName = document.createElement("p");
-  newName.innerHTML = `${beerNameDisplay}`;
+  let beerAbvDisplay = obj.abv;
+  let newName = document.createElement("h2");
+  newName.innerHTML = `${beerNameDisplay}  ${beerAbvDisplay}%`;
   beerName.appendChild(newName);
 }
 // show beer description on page
