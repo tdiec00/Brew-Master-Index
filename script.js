@@ -122,10 +122,12 @@ function setBeerValues(beers) {
 
 // eventlistener for select beer dropdown
 beerSelect.addEventListener("change", handleChange);
+// eventlistener for click on fav button
+favButton.addEventListener("click", handleFavList)
+
 
 //function for after "change" eventlistener 
 function handleChange(event) {
-
   removeData();
   let displayBeer = beers.filter(beer => {
     if (beer.name == this.value) {
@@ -133,32 +135,22 @@ function handleChange(event) {
     }
   })
   // console.log(displayBeer[0].name);
-
-  // showBeerName(displayBeer[0]);
-  // showBeerDesc(displayBeer[0]);
-  // showYeast(displayBeer[0])
-  // showMalt(displayBeer[0])
-  // removeDups(displayBeer[0]);
-  favBeerName(displayBeer[0].name)
-}
-//store beerName value for favList
-function favBeerName(beerName) {
-  //event listener "click" add to favList
-  function handleFavList(event) {
-    event.preventDefault();
-    return beerName;
-  }
-  addFavList(beerName)
-  favButton.addEventListener("click", handleFavList)
+  showBeerName(displayBeer[0]);
+  showBeerDesc(displayBeer[0]);
+  showYeast(displayBeer[0])
+  showMalt(displayBeer[0])
+  removeDups(displayBeer[0]);
 }
 
 
 
-// function handleFavList(event) {
-//   event.preventDefault();
 
-
-// }
+// function for "click" eventlistener
+function handleFavList(event) {
+  event.preventDefault();
+  let favBeer = beerName.firstElementChild.innerHTML
+  addFavList(favBeer);
+}
 
 
 
