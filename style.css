@@ -45,6 +45,11 @@ max-width: 70vw;
   
 }
 
+.guideline-container{
+display: flex;
+justify-content: space-around;
+}
+
 .container-info{
 text-align: left;
 }
@@ -73,6 +78,12 @@ padding:10px ;
     display: block;
     text-align: left;
   }
+
+  .guideline-container{
+    display: block;
+    text-align: left;
+    }
+
   .container4{
     margin: 0;
     padding: 0;
