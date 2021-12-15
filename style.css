@@ -1,3 +1,7 @@
+/* *{
+  margin: 0
+;} */
+
 .body{
   background-color: rgb(252, 225, 142);
   text-align: center;
@@ -33,7 +37,14 @@ max-width: 70vw;
 text-align: left;
 }
 
-
+.container4{
+  max-width: 70vw;
+  /* border: 2px solid black; */
+  text-align: left;
+margin: auto;
+padding:10px ;
+list-style-type: none;
+}
 
 @media screen and (max-width: 550px) {
  
@@ -50,5 +61,14 @@ text-align: left;
   .container3{
     display: block;
     text-align: left;
+  }
+  .container4{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    margin: 0
+    margin-left:0%;
+    text-align: center;
+    padding: 5px 10px 15px 10px ;
+    
   }
 }
