@@ -43,7 +43,6 @@ text-align: left;
   text-align: left;
 margin: auto;
 padding:10px ;
-list-style-type: none;
 }
 
 @media screen and (max-width: 550px) {
@@ -63,12 +62,10 @@ list-style-type: none;
     text-align: left;
   }
   .container4{
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    margin: 0
-    margin-left:0%;
-    text-align: center;
-    padding: 5px 10px 15px 10px ;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
     
   }
 }
