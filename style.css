@@ -23,6 +23,17 @@ max-width: 70vw;
   height: 25px;
 }
 
+.beer-name{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.beer-name h2{
+  margin: -20px 0 -20px 0;
+  padding: 5px;
+}
+
 .beer-description{
   max-width: 70vw;
   margin: auto;

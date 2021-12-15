@@ -16,7 +16,7 @@ let beers = [];
 // function to retreive array of beers
 async function getBeers() {
 
-  for (let i = 1; i < 2; i++) {
+  for (let i = 1; i < 4; i++) {
 
     let url = `https://api.punkapi.com/v2/beers?page=${i}&per_page=80`
     let res = await axios.get(`${url}`);
@@ -59,11 +59,18 @@ function removeDups(obj) {
 // show beer name on page
 function showBeerName(obj) {
   let beerNameDisplay = obj.name;
-  let beerAbvDisplay = obj.abv;
   let newName = document.createElement("h2");
   newName.innerHTML = `${beerNameDisplay}`;
   beerName.appendChild(newName);
 }
+
+function showBeerAbv(obj) {
+  let beerAbvDisplay = obj.abv;
+  let newAbv = document.createElement("h2");
+  newAbv.innerHTML = `${beerAbvDisplay}%`;
+  beerName.appendChild(newAbv);
+}
+
 // show beer description on page
 function showBeerDesc(obj) {
   let beerDescDisplay = obj.description;
@@ -153,6 +160,7 @@ function handleChange(event) {
   })
   // console.log(displayBeer[0].name);
   showBeerName(displayBeer[0]);
+  showBeerAbv(displayBeer[0]);
   showBeerDesc(displayBeer[0]);
   showYeast(displayBeer[0])
   showMalt(displayBeer[0])
