@@ -19,16 +19,11 @@ let beers = [];
 
 // function to retreive array of beers
 async function getBeers() {
-
   for (let i = 1; i < 6; i++) {
-
     let url = `https://api.punkapi.com/v2/beers?page=${i}&per_page=80`
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
-    // console.log(beers)
-    // convertBeers(beers);
-
   }
   alphabetize(beers);
 }
@@ -42,7 +37,6 @@ function alphabetize(beer) {
     beerArr.push(beers)
   }
   beerArr.sort();
-  // console.log(beerArr);
   convertBeers(beerArr);
 }
 
@@ -51,7 +45,6 @@ function alphabetize(beer) {
 function convertBeers(beer) {
   for (let a = 0; a < beer.length; a++) {
     let beers = beer[a];
-    // console.log(beer[a]);
     setBeerValues(beers);
   }
 }
@@ -83,6 +76,7 @@ function showBeerName(obj) {
   beerName.appendChild(newName);
 }
 
+// show beer abv on page
 function showBeerAbv(obj) {
   let beerAbvDisplay = obj.abv;
   let newAbv = document.createElement("h2");
@@ -100,10 +94,8 @@ function showBeerDesc(obj) {
 
 // shows malt on page
 function showMalt(obj) {
-  //malt works
   let maltArr = obj.ingredients.malt;
   for (let i = 0; i < maltArr.length; i++) {
-    // console.log(maltArr[i].name)
     let malt = maltArr[i].name
     let newMalt = document.createElement("li");
     newMalt.innerHTML = `${malt}`;
@@ -113,7 +105,6 @@ function showMalt(obj) {
 
 //shows yeast on page
 function showYeast(obj) {
-  // yeast works
   let yeast = obj.ingredients.yeast;
   let newYeast = document.createElement("li");
   newYeast.innerHTML = `${yeast}`;
@@ -152,12 +143,12 @@ function showMashTemp(obj) {
     dispMashDur.innerHTML = `No duration provided`;
     mashDur.appendChild(dispMashDur);
   } else {
-
     let dispMashDur = document.createElement("p");
     dispMashDur.innerHTML = `${newMashDur} minutes`;
     mashDur.appendChild(dispMashDur);
   }
 }
+
 // adds beer name to favorite list
 function addFavList(obj) {
   let newFav = obj;
@@ -165,7 +156,6 @@ function addFavList(obj) {
   let addFav = document.createElement("li");
   addFav.innerHTML = `${newFav}`;
   favList.appendChild(addFav);
-
 }
 
 //function to set value of beer to dropdown list
@@ -174,17 +164,13 @@ function setBeerValues(beers) {
   option.value = beers;
   option.innerHTML = beers;
   beerSelect.appendChild(option);
-
 }
 
 // this function removes  duplicate values from the favorites list
 function noDupFavs(favBeer) {
-  // let favListElements = favList;
   let favListElements = favList.getElementsByTagName("li")
   for (let i = 0; i < favListElements.length; i++) {
     let currentList = favListElements[i].innerText
-    // console.log(favListElements[0]);
-    // console.log(favBeer);
     if (currentList == favBeer) {
       favListElements[i].remove();
     }
@@ -206,7 +192,6 @@ function handleChange(event) {
       return beer
     }
   })
-  // console.log(displayBeer[0].name);
   showBeerName(displayBeer[0]);
   showBeerAbv(displayBeer[0]);
   showBeerDesc(displayBeer[0]);
@@ -217,17 +202,12 @@ function handleChange(event) {
   removeDups(displayBeer[0]);
 }
 
-
-
-
 // function for "click" eventlistener
 function handleFavList(event) {
   event.preventDefault();
   let favBeer = beerName.firstElementChild.innerHTML
   addFavList(favBeer);
 }
-
-
 
 // remove data before populating next choice
 function removeData() {
@@ -239,6 +219,5 @@ function removeData() {
   fermTemp.innerHTML = "";
   mashTemp.innerHTML = "";
   mashDur.innerHTML = "";
-
 }
 
