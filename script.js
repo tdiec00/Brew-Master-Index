@@ -110,6 +110,7 @@ function showMalt(obj) {
     maltList.appendChild(newMalt);
   }
 }
+
 //shows yeast on page
 function showYeast(obj) {
   // yeast works
