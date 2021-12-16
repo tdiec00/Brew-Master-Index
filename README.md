@@ -71,11 +71,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Create favorites button and save information to page| M | 4hr| 3hrs | |
 | Debugging API information and submit/click function| M | 3hrs |2hrs | |
 | Set background image, style html, and buttons/dropdown boxes| H | 3hrs| 4hrs ||
-| CSS flexbox styling| H | 3hrs| 7hrs | |
+| CSS flexbox styling| H | 3hrs| 9hrs | |
 | Media query for different size screens| H | 2.5hrs| 3hrs| |
 | Cleaning and refactoring code| M | 3hrs| 3hrs | |
-| Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hrs| | |
-| Styling of new additional information| L | 4hrs| | |
+| Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hrs| 2hrs | |
+| Styling of new additional information| L | 4hrs| 3hrs | |
 |Total:| | 38.5| | |
 
 

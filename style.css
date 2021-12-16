@@ -6,16 +6,12 @@
   background-color: rgb(252, 225, 142);
   text-align: center;
   font-size: 20px;
+  border: 50px;
   font-family: 'Nunito', sans-serif;
 }
 
 h1{
   font-family: 'Nunito Sans', sans-serif;
-}
-
-h2{
-  
-
 }
 
 #beer-select{
@@ -65,11 +61,19 @@ text-align: left;
 }
 
 .container4{
-  width: 300px;
+  display: flex;
+  /* width: 300px; */
   /* border: 2px solid black; */
+  justify-content: center;
   text-align: left;
 margin: auto;
-padding:10px ;
+flex-direction: column;
+    align-items: center;
+}
+
+#favorites{
+  margin-top: -30px;
+  
 }
 
 @media screen and (max-width: 550px) {
@@ -95,10 +99,12 @@ padding:10px ;
     }
 
   .container4{
+    display: flex;
     margin: 0;
     padding: 0;
     text-align: left;
-    
-    
+    flex-direction: column;
+    align-items: flex-start;
   }
+
 }

@@ -8,7 +8,7 @@ const beerDesc = document.querySelector(".beer-description")
 const hopsList = document.querySelector(".hops");
 const maltList = document.querySelector(".malt")
 const yeastList = document.querySelector(".yeast")
-const favList = document.querySelector(".favorites")
+const favList = document.querySelector("#favorites")
 const favButton = document.querySelector(".favButton")
 const fermTemp = document.querySelector(".ferm-temp")
 const mashTemp = document.querySelector(".mash-temp")
@@ -20,16 +20,17 @@ let beers = [];
 // function to retreive array of beers
 async function getBeers() {
 
-  for (let i = 1; i < 2; i++) {
+  for (let i = 1; i < 6; i++) {
 
     let url = `https://api.punkapi.com/v2/beers?page=${i}&per_page=80`
     let res = await axios.get(`${url}`);
     let currentBeers = res.data;
     beers = [...beers, ...currentBeers];
-    console.log(beers)
+    // console.log(beers)
     // convertBeers(beers);
-    alphabetize(beers);
+
   }
+  alphabetize(beers);
 }
 getBeers();
 
@@ -128,6 +129,7 @@ function showHops(obj) {
   })
 }
 
+// adds fermentation temp on page
 function showFermTemp(obj) {
   newFermTemp = obj.method.fermentation.temp;
   let dispFermTemp = document.createElement("p");
@@ -135,6 +137,7 @@ function showFermTemp(obj) {
   fermTemp.appendChild(dispFermTemp);
 }
 
+// adds mash temp and mash duration on page
 function showMashTemp(obj) {
   newMashTemp = obj.method.mash_temp[0].temp;
   let dispMashTemp = document.createElement("p");
@@ -142,11 +145,18 @@ function showMashTemp(obj) {
   mashTemp.appendChild(dispMashTemp);
 
   newMashDur = obj.method.mash_temp[0].duration;
-  let dispMashDur = document.createElement("p");
-  dispMashDur.innerHTML = `${newMashDur} minutes`;
-  mashDur.appendChild(dispMashDur);
-}
+  // if statement for certain beers that do not have a mash duration
+  if ((newMashDur == null) == true) {
+    let dispMashDur = document.createElement("p");
+    dispMashDur.innerHTML = `No duration provided`;
+    mashDur.appendChild(dispMashDur);
+  } else {
 
+    let dispMashDur = document.createElement("p");
+    dispMashDur.innerHTML = `${newMashDur} minutes`;
+    mashDur.appendChild(dispMashDur);
+  }
+}
 // adds beer name to favorite list
 function addFavList(obj) {
   let newFav = obj;
