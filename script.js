@@ -153,9 +153,13 @@ function showMashTemp(obj) {
 function addFavList(obj) {
   let newFav = obj;
   noDupFavs(newFav)
-  let addFav = document.createElement("li");
-  addFav.innerHTML = `${newFav}`;
-  favList.appendChild(addFav);
+  let dup = noDupFavs(newFav);
+  if (dup == true) {
+  } else {
+    let addFav = document.createElement("li");
+    addFav.innerHTML = `${newFav}`;
+    favList.appendChild(addFav);
+  }
 }
 
 //function to set value of beer to dropdown list
@@ -172,7 +176,7 @@ function noDupFavs(favBeer) {
   for (let i = 0; i < favListElements.length; i++) {
     let currentList = favListElements[i].innerText
     if (currentList == favBeer) {
-      favListElements[i].remove();
+      return true
     }
   }
 }
