@@ -76,7 +76,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Cleaning and refactoring code| M | 3hrs| 3hrs | |
 | Additional information (abv, brewer tips, mash temp, and fermentation temp.)| L | 3hrs| 2hrs | |
 | Styling of new additional information| L | 4hrs| 3hrs | |
-|Total:| | 38.5| | |
+|Total:| | 38.5| 40.5 | |
 
 
 
