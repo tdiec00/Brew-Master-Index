@@ -37,7 +37,8 @@ Wire frame for phone desktop screen size
 * Add more information including abv, brewer tips, mash temp, and fermentation temp.
 * Style new elements of page (favorites list, additional info, and favorites button)
 * Add in functionality for tablet screen size.
-
+* Favorites list has clickable links that will bring up favorite beers information
+* Search section to search by ABV%
 
 ## Project Schedule
 

@@ -105,15 +105,12 @@ flex-direction: column;
     display: flex;
     text-align: left;
   }
-
  
   .container4{
     display: flex;
     margin: 0;
     padding: 0;
-    
     flex-direction: column;
-  
   }
 
 }
